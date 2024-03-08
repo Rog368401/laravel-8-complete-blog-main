@@ -15,6 +15,9 @@ class CreateEnquireysTable extends Migration
     {
         Schema::create('enquireys', function (Blueprint $table) {
             $table->id();
+            $table->string(`title`);
+            $table->string(`email`);
+            $table->string(`message`);
             $table->timestamps();
         });
     }

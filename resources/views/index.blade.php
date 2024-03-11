@@ -16,12 +16,12 @@
         </div>
     </div>
 
-    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+    <div class="sm:grid grid-cols-2 bg-light blue gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
             <img src="https://assetsio.reedpopcdn.com/god-of-war-walkthrough-guide-5004-1642178551828.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp" width="700" alt="">
         </div>
 
-        <div class="m-auto sm:m-auto text-left w-4/5 block">
+        <div class="m-auto sm:m-auto text-left w-4/5 block ">
             <h2 class="text-3xl font-extrabold text-gray-600">
                 Struggling to get into God of War?
             </h2>

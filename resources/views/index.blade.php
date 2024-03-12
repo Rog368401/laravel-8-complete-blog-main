@@ -1,36 +1,36 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="background-image grid grid-cols-1 m-auto">
-        <div class="flex text-gray-100 pt-10">
+    <div class="background-image grid grid-cols-1 m-auto bg-red-900 ">
+        <div class=" text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
-                <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
+                <h1 class="sm:text-red-800 text-5xl uppercase font-bold text-shadow-md pb-14">
                     Do you want to become a God of War expert?
                 </h1>
                 <a 
                     href="/blog"
-                    class="text-center bg-gray-50 text-gray-700 py-2 px-4 font-bold text-xl uppercase">
+                    class="text-center bg-red-900 text-yellow-500 py-2 px-4 font-bold text-xl uppercase">
                     Start your Journey
                 </a>
             </div>
         </div>
     </div>
 
-    <div class="sm:grid grid-cols-2 bg-light blue gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+    <div class="sm:grid grid-cols-2 bg-red-900    py-15 border-blue border-gray-200">
         <div>
             <img src="https://assetsio.reedpopcdn.com/god-of-war-walkthrough-guide-5004-1642178551828.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block ">
-            <h2 class="text-3xl font-extrabold text-gray-600">
+            <h2 class="text-3xl font-extrabold text-black">
                 Struggling to get into God of War?
             </h2>
             
-            <p class="py-8 text-gray-500 text-s">
+            <p class="py-8 text-black text-s">
                 Well then you have come to the right place.
             </p>
 
-            <p class="font-extrabold text-gray-600 text-s pb-9">
+            <p class="font-extrabold text-black text-s pb-9">
                 Take some time and explore the farthest corners of this website and by the time your finished you will fully understand the Ghost of Sparta.
             </p>
 
@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
+    <div class="text-center p-15 bg-white text-black">
         <h2 class="text-2xl pb-5 text-l"> 
             Become an expert in...
         </h2>
@@ -61,7 +61,7 @@
         </span>
     </div>
 
-    <div class="text-center py-15">
+    <div class="text-center py-15 bg-red-900">
         <span class="uppercase text-s text-gray-400">
             Knowledge Library
         </span>
@@ -75,9 +75,9 @@
         </p>
     </div>
 
-    <div class="sm:grid grid-cols-2 w-4/5 m-auto">
+    <div class="sm:grid grid-cols-2   bg-red-900">
         <div class="flex bg-red-900 text-gray-100 pt-10">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
+            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block bg-red-900">
                 <span class="uppercase text-xs">
                     PHP
                 </span>

@@ -73,6 +73,13 @@
         <p class="m-auto w-4/5 text-black">
             Obtain the most up to date knowledge of which you seek
         </p>
+        <p class="m-auto w-4/5 text-red-900">
+            Obtain the most up to date knowledge of which you seek
+            Obtain the most up to date knowledge of which you seek
+            Obtain the most up to date knowledge of which you seek
+
+
+        </p>
         <a 
                     href=""
                     class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">

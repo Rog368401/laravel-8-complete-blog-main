@@ -63,16 +63,21 @@
 
     <div class="text-center py-15 bg-red-900">
         <span class="uppercase text-s text-gray-400">
-            Knowledge Library
+            
         </span>
 
         <h2 class="text-4xl font-bold py-10">
             Recent Posts
         </h2>
 
-        <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+        <p class="m-auto w-4/5 text-black">
+            Obtain the most up to date knowledge of which you seek
         </p>
+        <a 
+                    href=""
+                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Knowledge Library
+                </a>
     </div>
 
     <div class="sm:grid grid-cols-2   bg-red-900">

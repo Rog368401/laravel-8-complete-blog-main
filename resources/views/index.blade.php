@@ -83,13 +83,10 @@
     <div class="sm:grid grid-cols-2   bg-red-900">
         <div class="flex bg-red-900 text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block bg-red-900">
-                <span class="uppercase text-xs">
-                    PHP
-                </span>
+                
 
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
-                </h3>
+                    Kratos is a Spartan warrior who becomes a central figure in Greek mythology. Throughout the series, he seeks vengeance against various gods and monsters who have wronged him, particularly Ares, the former Greek god of war, and later Zeus, the king of the Olympian gods.                </h3>
 
                 <a 
                     href=""

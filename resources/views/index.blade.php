@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-white text-black">
+    <div class="text-center p-15 background-color: transparent text-black">
         <h2 class="text-2xl pb-5 text-l"> 
             Become an expert in...
         </h2>

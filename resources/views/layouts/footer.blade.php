@@ -66,22 +66,22 @@
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
                 <li class="pb-1">
                     <a href="/blog">
-                        Why we love tech
+                        1st Game
                     </a>
                 </li>
                 <li class="pb-1">
                     <a href="/blog">
-                        Why we love design
+                        2nd Game
                     </a>
                 </li>
                 <li class="pb-1">
                     <a href="/blog">
-                        Why to use Laravel
+                        3rd Game
                     </a>
                 </li>
                 <li class="pb-1">
                     <a href="/blog">
-                        Why PHP is the best
+                        4th Game
                     </a>
                 </li>
             </ul>

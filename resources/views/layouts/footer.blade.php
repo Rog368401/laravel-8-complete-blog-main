@@ -65,22 +65,22 @@
 
             <ul class="py-4 sm:text-s pt-4 text-gray-400">
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/blog">
                         Why we love tech
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/blog">
                         Why we love design
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/blog">
                         Why to use Laravel
                     </a>
                 </li>
                 <li class="pb-1">
-                    <a href="/">
+                    <a href="/blog">
                         Why PHP is the best
                     </a>
                 </li>

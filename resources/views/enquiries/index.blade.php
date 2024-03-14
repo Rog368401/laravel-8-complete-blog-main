@@ -1,13 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="w-4/5 m-auto text-center">
-        <div class="py-15 border-b border-gray-200">
-            <h1 class="text-6xl">
-                Enquiries
+<div class="background-image grid grid-cols-1 m-auto bg-red-900 ">
+    <div class=" text-gray-100 pt-10">
+        <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
+            <h1 class="sm:text-red-800 text-5xl uppercase font-bold text-shadow-md pb-14">
+               Ask the fates
             </h1>
+        
         </div>
     </div>
+</div>
+  
 
     @if (session()->has('message'))
         <div class="w-4/5 m-auto mt-10 pl-2">

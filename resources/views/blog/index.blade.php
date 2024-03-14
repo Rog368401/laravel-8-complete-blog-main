@@ -9,7 +9,6 @@
     </div>
 </div>
 
-
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
         <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
@@ -27,6 +26,13 @@
         </a>
     </div>
 @endif
+
+<!-- Sorting options -->
+<div class="pt-10 pb-5 w-4/5 m-auto">
+    <a href="{{ route('blog.index', ['sort_by' => 'title', 'sort_dir' => 'asc']) }}" class="text-gray-600 hover:text-blue-500 pr-5">Sort by Title (A-Z)</a>
+    <a href="{{ route('blog.index', ['sort_by' => 'title', 'sort_dir' => 'desc']) }}" class="text-gray-600 hover:text-blue-500 pr-5">Sort by Title (Z-A)</a>
+    <!-- Add more sorting options as needed -->
+</div>
 
 @foreach ($posts as $post)
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">

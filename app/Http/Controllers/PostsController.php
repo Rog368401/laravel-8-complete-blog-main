@@ -18,11 +18,16 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('blog.index')
-            ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
-    }
+    public function index(Request $request)
+{
+    $sortBy = $request->query('sort_by', 'title'); // Get the sort criteria from the query string, default to 'title'
+    $sortDirection = $request->query('sort_dir', 'asc'); // Get the sort direction from the query string, default to 'asc'
+
+    $posts = Post::orderBy($sortBy, $sortDirection)->get();
+
+    return view('blog.index', compact('posts', 'sortBy', 'sortDirection'));
+}
+    
 
     /**
      * Show the form for creating a new resource.

@@ -24,7 +24,9 @@
                         God of War
                     </a>
                 </div>
+                <img class="imgsize2"src="/images/godOfWarLogoUpdated.png" alt="" width="250">
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
+                   
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Knowledge Library</a>
                     <a class="no-underline hover:underline" href="{{ route('enquiries.index') }}">{{ __('Ask the Fates') }}</a>

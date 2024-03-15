@@ -13,7 +13,12 @@
                 </li>
                 <li class="pb-1">
                     <a href="/blog">
-                        Blog
+                        Knowledge Library
+                    </a>
+                </li>
+                <li class="pb-1">
+                    <a href="/enquiries">
+                        Ask the fates
                     </a>
                 </li>
                 <li class="pb-1">

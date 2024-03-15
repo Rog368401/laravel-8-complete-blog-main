@@ -20,8 +20,8 @@ class PostsController extends Controller
      */
     public function index(Request $request)
 {
-    $sortBy = $request->query('sort_by', 'title'); // Get the sort criteria from the query string, default to 'title'
-    $sortDirection = $request->query('sort_dir', 'asc'); // Get the sort direction from the query string, default to 'asc'
+    $sortBy = $request->query('sort_by', 'title'); 
+    $sortDirection = $request->query('sort_dir', 'asc'); 
 
     $posts = Post::orderBy($sortBy, $sortDirection)->get();
 

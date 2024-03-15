@@ -3,7 +3,7 @@
 @section('content')
 <div class="w-4/5 m-auto text-center">
     <div class="py-15 border-b border-gray-200">
-        <h1 class="text-6xl">
+        <h1 class="sm:text-red-800 text-5xl uppercase font-bold text-shadow-md pb-14">
             Knowledge Library
         </h1>
     </div>
@@ -18,7 +18,7 @@
 @endif
 
 @if (Auth::check())
-    <div class="pt-15 w-4/5 m-auto">
+    <div class="pt-15 w-4/5 m-auto text-center">
         <a 
             href="/blog/create"
             class="bg-blue-500 uppercase bg-transparent text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
@@ -28,7 +28,7 @@
 @endif
 
 <!-- Sorting options -->
-<div class="pt-10 pb-5 w-4/5 m-auto">
+<div class="pt-10 pb-5 w-4/5 m-auto text-center">
     <a href="{{ route('blog.index', ['sort_by' => 'title', 'sort_dir' => 'asc']) }}" class="text-gray-600 hover:text-blue-500 pr-5">Sort by Title (A-Z)</a>
     <a href="{{ route('blog.index', ['sort_by' => 'title', 'sort_dir' => 'desc']) }}" class="text-gray-600 hover:text-blue-500 pr-5">Sort by Title (Z-A)</a>
     <!-- Add more sorting options as needed -->

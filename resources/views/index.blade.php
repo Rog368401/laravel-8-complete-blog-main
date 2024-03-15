@@ -81,7 +81,7 @@
 
         </p>
         <a 
-                    href=""
+                    href="/blog"
                     class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                     Knowledge Library
                 </a>
@@ -96,7 +96,7 @@
                     Kratos is a Spartan warrior who becomes a central figure in Greek mythology. Throughout the series, he seeks vengeance against various gods and monsters who have wronged him, particularly Ares, the former Greek god of war, and later Zeus, the king of the Olympian gods.                </h3>
 
                 <a 
-                    href=""
+                    href="/blog"
                     class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
                     Knowledge Library
                 </a>

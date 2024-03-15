@@ -22,7 +22,7 @@
     @endif
 
 
-    @if (Auth::check())
+    
         @foreach ($enquiries as $enquiry)
             <div class="sm:grid  w-4/5 mx-auto py-15 border-b border-gray-200">
                 @if ($enquiry->is_urgent)
@@ -41,7 +41,7 @@
                 </p>
             </div>
         @endforeach
-    @endif
+    
 
     <div class="pt-15 w-4/5 m-auto">
         <a href="/enquiries/create"

@@ -17,6 +17,12 @@
     <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
         {{ $post->description }}
     </p>
+    <a 
+                    href="/blog"
+                    class="uppercase bg-black border-2 border-gray-100 text-white text-xs font-extrabold py-3 px-5 rounded-3xl">
+                    Back to the Knowledge Library
+                </a>
+            
 </div>
 
 @endsection 
